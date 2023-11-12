@@ -1,0 +1,85 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: lightblue;
+  color: #fff;
+  padding: 0rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-header img {
+  width: 70px;
+  height: auto;
+  margin-right: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Apply background image to the home page only */
+.home-hero {
+  background-image: url('your-hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+
+.feature {
+  text-align: center;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.image-container img {
+  width: 100%;
+  /* Ensure the image covers the container width */
+  height: 100%;
+  /* Maintain the aspect ratio */
+  object-fit: cover;
+}
